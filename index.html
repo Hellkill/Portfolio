@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mein Portfolio</title>
+    <link rel="stylesheet" href="general_settings.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Rounded:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="about_me.css">
+    <link rel="stylesheet" href="services.css">
+    <link rel="stylesheet" href="footer.css">
+</head>
+<body>
+    <header>
+       <div class="header_text">
+           <nav>
+               <input type="checkbox" id="toggle_button">
+               <label for="toggle_button">   
+                <span class="material-symbols-rounded">menu</span>
+               </label>
+            <ul>
+            <li><a href="#about_me_section">About Me </a></li>
+            <li><a href="#projekt_me_services">Meine Projekte</a></li>
+            <li><a href="#more_information_section">Socialmedia</a></li>
+            </ul>
+         </nav>
+         <h1>Florian Bumm, <br><span style="color: var(--main-brand-color);">Webdeveloper</span></h1>
+         <p class="subheading">Warum schwer wenn es auch einfach geht</p>
+       </div>
+       <div class="circle">
+         <img src="ich.png" alt="">
+       </div>
+    </header>
+    <section id="about_me_section">
+        <img src="florianbumm.png" alt="">
+        <div class ="about_me_container">
+        <h2>Über Mich</h2>
+        <p>Hallo oder wie man bei uns in Bayern sagt "Servus" ich bin der Florian Bumm und angehender Webdev.Neia wie man sieht targe ich gerne Schnurbart und spiele gerne Videogames, ab und an mache ich auch mal Sport man mag es nicht glauben ich hoffe euch gefällt meine seite :).</p>
+        </div>
+    </section>
+    <section id="projekt_me_services">
+        <h2>Meine Projekte</h2>
+         <div class="flex_container">
+             <div class="card">
+                <h3>Addons</h3>
+                <p>Hey wenn ihr Addons sucht für WoW und co schaut doch gerne vorbei (Work in process)</p>
+                <a href="">GitHub</a>
+             </div>
+             <div class="card">
+                <h3>Webcrawler</h3>
+                <p>Hoffe bald einen Funktionstüchtigen Crawler zu haben (Work in process)</p>
+                <a href="">GitHub</a>
+             </div>
+             <div class="card">
+                <h3>Discord-Bot</h3>
+                <p>Hier habe ich mir ein bisschen mit Python ausgetobt </p>
+                <a href="">GitHub</a>
+             </div>
+    </section>
+    <footer id="more_information_section">
+        <h2>Socialmedia</h2>
+        <div class="grid_container">
+         <div id="item1" class="grid_item">
+             <a href ="https://www.instagram.com/florianbumm/"><img src="instagram-svgrepo-com.svg" alt="Bild"/></a>
+             <div>
+               <h3>Instagram</h3>
+               <p>Reallife Content nichts für schwache Nerven</p>
+             </div>
+         </div>
+         <div id="item2" class="grid_item">
+             <a href="https://twitter.com/flo19953"><img src="twitter-svgrepo-com.svg" alt="Bild"/></a>
+             <h3>Twitter</h3>
+         </div>
+         <div id="item3" class="grid_item">
+            <h3>Kontakt</h3>
+            <p>Florian Bumm </br></br></p>
+            <p>Auch gerne über Whatapp erreichbar</br>0151/40542769</p>
+         </div>
+         <div id="item4" class="grid_item">
+            <img src="telegram-svgrepo-com.svg" alt="">
+            <h3>Telegram</h3>
+         </div>
+         <div id="item5" class="grid_item">
+            <a href="https://github.com/Hellkill"><img src="github-svgrepo-com.svg" alt="Bild"/></a>
+            <div>
+              <h3>GitHub</h3>
+              <p>Ein paar kleine Projekte :D </p>
+            </div>
+         </div>
+        </div>
+        
+
+
+    </footer>
+</body>
+</html>
